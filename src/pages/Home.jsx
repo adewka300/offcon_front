@@ -375,7 +375,7 @@ const Home = () => {
         </div>
         <div className="flex flex-row gap-4 lg:gap-5 items-start px-5 xl:px-[100px]">
           <div className="flex-shrink-0">
-            <img src={getMediaUrl(aboutSettings?.image || '/team/fedor.jpg')} alt="Фёдор Ращевский" className="w-[105px] h-[125px] lg:w-[220px] lg:h-[240px] object-cover rounded-[5px]" />
+            <img src="/team/fedor.jpg" alt="Фёдор Ращевский" className="w-[105px] h-[125px] lg:w-[220px] lg:h-[240px] object-cover rounded-[5px]" />
           </div>
           <div className="flex-1 flex flex-col gap-[5px]">
             <p className="text-[16px] lg:text-[20px] font-bold text-black leading-none">
